@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6"
+env:
+  CI=true
+
+deploy:
+  provider: script
+  script: npm build && npm run deploy
+  on:
+    branch: master

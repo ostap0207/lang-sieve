@@ -3,7 +3,7 @@ import Select from 'react-select';
 import Language from './Language';
 import {languages} from './Data';
 import R from 'ramda';
-import LanguageFilter from './LanguageFilter';
+import languageFilter from './LanguageFilter';
 
 import './App.css';
 import 'react-select/dist/react-select.css';
@@ -18,7 +18,7 @@ const options = R.compose(
   R.map(R.compose(R.values, R.pick(searchableProperties)))
 )(languages);
 
-const filterLanguages = new LanguageFilter(languages, searchableProperties);
+const filterLanguages = languageFilter(languages, searchableProperties);
 
 class App extends Component {
   constructor() {
