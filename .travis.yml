@@ -6,6 +6,6 @@ env:
 
 deploy:
   provider: script
-  script: node scripts/build.js && npm run deploy
+  script: npm install && node scripts/build.js && npm run deploy
   on:
     branch: master
