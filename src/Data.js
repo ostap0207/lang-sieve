@@ -1,6 +1,7 @@
 import javaLogo from './images/java.jpg';
 import javascriptLogo from './images/javascript.svg';
 import rubyLogo from './images/ruby.png';
+import haskellLogo from './images/haskell.svg';
 
 export const languages = [
   {
@@ -36,5 +37,17 @@ export const languages = [
       It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
     `,
     logo: rubyLogo
+  },
+  {
+    name: 'Haskell',
+    paradigms: ['object-oriented', 'functional', 'static', 'compiled', 'pure'],
+    features: [
+      'inherirance', 'type inference', 'lazy evaluation', 'pattern matching', 'list comprehension', 'type classes',
+      'type polymorphism', 'monads', 'closures', 'lambdas', 'tuples', 'currying', 'case sensitive'
+    ],
+    description: `Haskell is a standardized, general-purpose purely functional programming language,
+     with non-strict semantics and strong static typing.
+    `,
+    logo: haskellLogo
   }
 ];
