@@ -2,6 +2,7 @@ import javaLogo from './images/java.jpg';
 import javascriptLogo from './images/javascript.svg';
 import rubyLogo from './images/ruby.png';
 import haskellLogo from './images/haskell.svg';
+import pythonLogo from './images/python.png';
 
 export const languages = [
   {
@@ -30,7 +31,7 @@ export const languages = [
     name: 'Ruby',
     paradigms: ['object-oriented', 'functional', 'imperative', 'dynamic', 'interpreted'],
     features: [
-      'inherirance', 'mixins', 'metaclasses', 'duck typing', 'garbage collection', 'native threads',
+      'inherirance', 'mixins', 'metaprogramming', 'duck typing', 'garbage collection', 'native threads',
       'anonymous functions', 'closures', 'backend', 'interactive mode', 'case sensitive', 'lambdas'
     ],
     description: `Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
@@ -49,5 +50,20 @@ export const languages = [
      with non-strict semantics and strong static typing.
     `,
     logo: haskellLogo
+  },
+  {
+    name: 'Python',
+    paradigms: ['object-oriented', 'imperative ', 'functional', 'procedural', 'dynamic', 'interpreted', 'aspect-oriented', 'reflective'],
+    features: [
+      'metaprogramming', 'garbage collection', 'late binding', 'duck typing',
+      'inherirance', 'type inference', 'lazy iterators', 'list comprehension', 'reflection',
+      'closures', 'lambdas', 'tuples', 'case sensitive', 'off-side rule', 'whitespace indentation'
+    ],
+    description: `
+      Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.
+      Its design philosophy emphasizes code readability, and its syntax allows programmers to express
+      concepts in fewer lines of code than possible in languages such as C++ or Java.
+    `,
+    logo: pythonLogo
   }
 ];
