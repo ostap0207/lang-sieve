@@ -1,10 +1,11 @@
 {
   "main.css": "static/css/main.c21cbd10.css",
   "main.css.map": "static/css/main.c21cbd10.css.map",
-  "main.js": "static/js/main.602ba096.js",
-  "main.js.map": "static/js/main.602ba096.js.map",
+  "main.js": "static/js/main.b83205fd.js",
+  "main.js.map": "static/js/main.b83205fd.js.map",
   "static/media/haskell.svg": "static/media/haskell.20afdb92.svg",
   "static/media/java.jpg": "static/media/java.41952004.jpg",
   "static/media/javascript.svg": "static/media/javascript.dd60b11e.svg",
+  "static/media/python.png": "static/media/python.c2281c83.png",
   "static/media/ruby.png": "static/media/ruby.cb75cc00.png"
 }
