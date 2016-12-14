@@ -3,6 +3,7 @@ import javascriptLogo from './images/javascript.svg';
 import rubyLogo from './images/ruby.png';
 import haskellLogo from './images/haskell.svg';
 import pythonLogo from './images/python.png';
+import cLogo from './images/c.png';
 
 export const languages = [
   {
@@ -65,5 +66,18 @@ export const languages = [
       concepts in fewer lines of code than possible in languages such as C++ or Java.
     `,
     logo: pythonLogo
+  },
+  {
+    name: 'C',
+    paradigms: ['imperative ', 'procedural', 'structured programming', 'static'],
+    features: [
+      'pointers', 'weak typing','system programming', 'low level', 'portable'
+    ],
+    description: `
+      C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler,
+      to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions,
+      and to require minimal run-time support.
+    `,
+    logo: cLogo
   }
 ];
