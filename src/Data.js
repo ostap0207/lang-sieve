@@ -4,6 +4,7 @@ import rubyLogo from './images/ruby.png';
 import haskellLogo from './images/haskell.svg';
 import pythonLogo from './images/python.png';
 import cLogo from './images/c.png';
+import cSharpLogo from './images/cSharp.png';
 
 export const languages = [
   {
@@ -79,5 +80,20 @@ export const languages = [
       and to require minimal run-time support.
     `,
     logo: cLogo
+  },
+  {
+    name: 'C#',
+    paradigms: ['imperative ', 'declarative', 'functiona', 'object-oriented', 'component-oriented'],
+    features: [
+      'generics', 'strong typing','partial types', 'lambdas', 'iterators', 'nullable types', 'delegates',
+      'static classes', 'named arguments', 'optional arguments', 'partial methods', 'anonymous types',
+      'query impressions', 'dynamic binding', 'metaprogramming', 'nameof operator', 'string interpolation',
+      'extension method', 'asynchronous methods'
+    ],
+    description: `
+      C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional,
+      generic, object-oriented (class-based), and component-oriented programming disciplines.
+    `,
+    logo: cSharpLogo
   }
 ];
