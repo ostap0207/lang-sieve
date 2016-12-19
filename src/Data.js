@@ -5,6 +5,7 @@ import haskellLogo from './images/haskell.svg';
 import pythonLogo from './images/python.png';
 import cLogo from './images/c.png';
 import cSharpLogo from './images/cSharp.png';
+import phpLogo from './images/php.png';
 
 export const languages = [
   {
@@ -20,7 +21,7 @@ export const languages = [
   {
     name: 'JavaScript',
     paradigms: ['object-oriented', 'functional', 'procedural', 'dynamic', 'prototype-based', 'interpreted', 'reflective'],
-    features: ['frontend', 'imperative', 'interactive mode', 'case sensitive', 'lambdas'],
+    features: ['frontend', 'imperative', 'interactive mode', 'case sensitive', 'lambdas', 'string interpolation'],
     description: `
       JavaScript is a high-level, dynamic, untyped, and interpreted programming language.
       It has been standardized in the ECMAScript language specification.
@@ -34,7 +35,7 @@ export const languages = [
     paradigms: ['object-oriented', 'functional', 'imperative', 'dynamic', 'interpreted'],
     features: [
       'inherirance', 'mixins', 'metaprogramming', 'duck typing', 'garbage collection', 'native threads',
-      'anonymous functions', 'closures', 'backend', 'interactive mode', 'case sensitive', 'lambdas'
+      'anonymous functions', 'closures', 'backend', 'interactive mode', 'case sensitive', 'lambdas', 'string interpolation'
     ],
     description: `Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
       It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
@@ -83,7 +84,7 @@ export const languages = [
   },
   {
     name: 'C#',
-    paradigms: ['imperative ', 'declarative', 'functiona', 'object-oriented', 'component-oriented'],
+    paradigms: ['imperative ', 'declarative', 'functional', 'object-oriented', 'component-oriented'],
     features: [
       'generics', 'strong typing','partial types', 'lambdas', 'iterators', 'nullable types', 'delegates',
       'static classes', 'named arguments', 'optional arguments', 'partial methods', 'anonymous types',
@@ -95,5 +96,17 @@ export const languages = [
       generic, object-oriented (class-based), and component-oriented programming disciplines.
     `,
     logo: cSharpLogo
+  },
+  {
+    name: 'PHP',
+    paradigms: ['imperative ', 'declarative', 'functional', 'object-oriented', 'procedural', 'reflective'],
+    features: [
+      'string interpolation', 'case sensative', 'anonymous functions', 'optional arguments', 'scalar type declarations',
+      'weak typing'
+    ],
+    description: `
+      PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language.
+    `,
+    logo: phpLogo
   }
 ];
