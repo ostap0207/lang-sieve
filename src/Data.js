@@ -6,12 +6,13 @@ import pythonLogo from './images/python.png';
 import cLogo from './images/c.png';
 import cSharpLogo from './images/cSharp.png';
 import phpLogo from './images/php.png';
+import swiftLogo from './images/swift.jpg';
 
 export const languages = [
   {
     name: 'Java',
     paradigms: ['object-oriented', 'functional', 'static', 'compiled', 'reflective'],
-    features: ['generics', 'checked exceptions', 'garbage collection', 'case sensitive', 'lambdas'],
+    features: ['generics', 'checked exceptions', 'garbage collection', 'case sensitive', 'lambdas', 'access modifiers'],
     description: `
       Java is a general-purpose computer programming language that is concurrent,
       class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.
@@ -89,7 +90,7 @@ export const languages = [
       'generics', 'strong typing','partial types', 'lambdas', 'iterators', 'nullable types', 'delegates',
       'static classes', 'named arguments', 'optional arguments', 'partial methods', 'anonymous types',
       'query impressions', 'dynamic binding', 'metaprogramming', 'nameof operator', 'string interpolation',
-      'extension method', 'asynchronous methods'
+      'extension method', 'asynchronous methods', 'access modifiers'
     ],
     description: `
       C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional,
@@ -108,5 +109,17 @@ export const languages = [
       PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language.
     `,
     logo: phpLogo
+  },
+  {
+    name: 'Swift',
+    paradigms: ['imperative ', 'functional', 'object-oriented', 'compiled'],
+    features: [
+      'late binding', 'extension method', 'access modifiers', 'value types', 'type inference', 'guards', 'optional types',
+      'string interpolation', 'case sensative', 'anonymous functions', 'labmdas', 'keyword arguemtns', 'closures', 'structs'
+    ],
+    description: `
+      Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux.
+    `,
+    logo: swiftLogo
   }
 ];
