@@ -7,6 +7,7 @@ import cLogo from './images/c.png';
 import cSharpLogo from './images/cSharp.png';
 import phpLogo from './images/php.png';
 import swiftLogo from './images/swift.jpg';
+import elixirLogo from './images/elixir.png';
 
 export const languages = [
   {
@@ -61,7 +62,7 @@ export const languages = [
     features: [
       'metaprogramming', 'garbage collection', 'late binding', 'duck typing',
       'inherirance', 'type inference', 'lazy iterators', 'list comprehension', 'reflection',
-      'closures', 'lambdas', 'tuples', 'case sensitive', 'off-side rule', 'whitespace indentation'
+      'closures', 'lambdas', 'tuples', 'case sensitive', 'off-side rule', 'whitespace indentation', 'interactive mode'
     ],
     description: `
       Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.
@@ -121,5 +122,17 @@ export const languages = [
       Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux.
     `,
     logo: swiftLogo
+  },
+  {
+    name: 'Elixir',
+    paradigms: ['imperative ', 'functional', 'concurrent', 'distributed', 'dymanic',],
+    features: [
+      'pattern matching', 'metaprogramming', 'macros', 'actor model', 'type inference', 'strong typing',
+      'interactive mode', 'erlang compatible'
+    ],
+    description: `
+      Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine (BEAM).
+    `,
+    logo: elixirLogo
   }
 ];
