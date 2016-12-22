@@ -8,12 +8,13 @@ import cSharpLogo from './images/cSharp.png';
 import phpLogo from './images/php.png';
 import swiftLogo from './images/swift.jpg';
 import elixirLogo from './images/elixir.png';
+import goLogo from './images/go.png';
 
 export const languages = [
   {
     name: 'Java',
     paradigms: ['object-oriented', 'functional', 'static', 'compiled', 'reflective'],
-    features: ['generics', 'checked exceptions', 'garbage collection', 'case sensitive', 'lambdas', 'access modifiers'],
+    features: ['generics', 'checked exceptions', 'garbage collection', 'case sensitive', 'lambdas', 'access modifiers', 'interfaces', 'classes'],
     description: `
       Java is a general-purpose computer programming language that is concurrent,
       class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.
@@ -134,5 +135,17 @@ export const languages = [
       Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine (BEAM).
     `,
     logo: elixirLogo
+  },
+  {
+    name: 'Go',
+    paradigms: ['compiled', 'concurrent', 'structured'],
+    features: [
+      'strong', 'static typing', 'type inference', 'garbage collection', 'embedding', 'interfaces', 'memory safety', 'performant', 'networking',
+      'multiprocessing'
+    ],
+    description: `
+      Go (often referred to as golang) is a free and open source programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson.
+    `,
+    logo: goLogo
   }
 ];
